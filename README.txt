@@ -75,16 +75,16 @@ Opcode(2 down to 0): next state
 
 2. L2 Cache:
 L2 Control:
-opcode	hit_inc	miss_inc	cs	oe	we	WrData
-000000	0	0	1	0	0	0
-101000	1	0	1	0	0	0
-100000	0	1	1	1	0	0
-111000	1	0	1	0	1	0
-110000	0	1	1	0	1	0
-000001	0	0	1	0	0	0
-000010	0	0	1	1	0	1
-000011	0	0	1	0	1	1
-000100	0	0	1	0	1	0
+opcode	hit_inc	miss_inc		cs	oe	we	WrData
+000000	0	0		1	0	0	0
+101000	1	0		1	0	0	0
+100000	0	1		1	1	0	0
+111000	1	0		1	0	1	0
+110000	0	1		1	0	1	0
+000001	0	0		1	0	0	0
+000010	0	0		1	1	0	1
+000011	0	0		1	0	1	1
+000100	0	0		1	0	1	0
 
 Opcode	read_cache	checkback	rec_status	DataSrc	DataInSrc	done	Next state
 000000	1	0	1	0	0	0	000
